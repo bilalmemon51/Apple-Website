@@ -109,8 +109,8 @@ div.section-two {
     width: 100vw;
     height: 570px;
     background-image: url(./assets/images/2.jpg);
-    background-size: 200%;
-    background-position: center;
+    background-size: cover;
+    background-position: center 0;
     background-repeat: no-repeat;
 }
 
@@ -148,6 +148,7 @@ div.section-three {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 12px;
+    background-size: cover;
 }
 
 div.section-three h2 {
@@ -237,6 +238,7 @@ div.btns-sec-four button.btn-hiover {
 div#one-card {
     background-image: url(./assets/images/4.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 div#one-card p {
@@ -246,6 +248,7 @@ div#one-card p {
 div#two-card {
     background-image: url(./assets/images/6.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 div#two-card h2,
@@ -272,6 +275,7 @@ div#three-card {
     background-image: url(./assets/images/7.jpg);
     background-position-x: center;
     position: relative;
+    background-size: cover;
 }
 
 div#three-card span.air {
@@ -295,6 +299,7 @@ div#three-card h2 {
 div#four-card {
     background-image: url(./assets/images/8.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 div#five-card {
@@ -313,6 +318,7 @@ div#five-card h2 {
 div#six-card {
     background-image: url(./assets/images/10.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 div#six-card .btn-hover {
@@ -387,7 +393,7 @@ div#six-card .btn-hover:hover {
 
     div.section-one {
         height: 550px;
-        background-size: cover;
+        background-size: 200%;
     }
 
     .section-two h2,
