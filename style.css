@@ -329,3 +329,182 @@ div#six-card .btn-hover:hover {
     background-color: #0071e3;
     color: white;
 }
+
+/* =========================
+   RESPONSIVE MEDIA QUERIES
+   ========================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    div.navbar ul {
+        gap: 22px;
+    }
+
+    div.navbar ul li a {
+        font-size: 11px;
+    }
+
+    div.section-four {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 500px);
+    }
+
+    div.section-four-cards h2 {
+        font-size: 28px;
+    }
+
+    div#two-card h2,
+    div.same-card h2 {
+        font-size: 34px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    div.navbar {
+        height: 44px;
+    }
+
+    div.navbar ul {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    div.navbar ul li a {
+        font-size: 10px;
+    }
+
+    div.navbar ul li:nth-child(n+8):nth-child(-n+12) {
+        display: none;
+    }
+
+    div.navbar ul {
+        gap: 18px;
+    }
+
+    div.section-one {
+        height: 550px;
+        background-size: cover;
+    }
+
+    .section-two h2,
+    .section-one h2,
+    .section-three h2 {
+        font-size: 38px;
+    }
+
+    .section-one h2+p,
+    .section-two h2+p {
+        font-size: 24px;
+    }
+
+    div.section-two {
+        height: 550px;
+        background-size: cover;
+    }
+
+    div.section-three {
+        height: 550px;
+        background-size: cover;
+    }
+
+    div.section-three p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    div.section-four {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 500px);
+        gap: 10px;
+    }
+
+    div.section-four-cards h2 {
+        font-size: 28px;
+    }
+
+    div#two-card h2,
+    div.same-card h2 {
+        font-size: 34px;
+    }
+
+    div#three-card h2 {
+        font-size: 34px;
+    }
+
+    div#three-card span.air {
+        font-size: 34px;
+    }
+
+    div#five-card {
+        background-size: 400px;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    div.navbar ul {
+        gap: 13px;
+    }
+
+    div.navbar ul li a {
+        font-size: 9px;
+    }
+
+    div.navbar ul li:nth-child(n+6):nth-child(-n+12) {
+        display: none;
+    }
+
+    .section-two h2,
+    .section-one h2,
+    .section-three h2 {
+        font-size: 32px;
+    }
+
+    .section-one h2+p,
+    .section-two h2+p {
+        font-size: 21px;
+    }
+
+    div.section-one,
+    div.section-two,
+    div.section-three {
+        height: 500px;
+    }
+
+    div.section-three p {
+        font-size: 17px;
+        max-width: 90%;
+    }
+
+    div.section-four {
+        grid-template-rows: repeat(6, 450px);
+    }
+
+    div.section-four-cards h2 {
+        font-size: 25px;
+    }
+
+    div#two-card h2,
+    div.same-card h2,
+    div#three-card h2 {
+        font-size: 30px;
+    }
+
+    div#three-card span.air {
+        font-size: 30px;
+    }
+
+    div.section-four-cards p {
+        font-size: 17px;
+    }
+
+    div#five-card {
+        background-size: 330px;
+    }
+}
