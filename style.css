@@ -111,7 +111,7 @@ div.section-two {
     height: 570px;
     background-image: url(./assets/images/2.jpg);
     background-size: cover;
-    background-position: center 0;
+    background-position: center 10px;
     background-repeat: no-repeat;
 }
 
