@@ -395,7 +395,7 @@ div#six-card .btn-hover:hover {
 
     div.section-one {
         height: 550px;
-        background-size: 200%;
+        background-size: 300%;
     }
 
     .section-two h2,
@@ -485,9 +485,6 @@ div#six-card .btn-hover:hover {
         height: 500px;
     }
     
-    div.section-one {
-        background-size: 300%;
-    }
     div.section-three p {
         font-size: 17px;
         max-width: 90%;
