@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+div.navbar {
+    background-color: #1d1d1fcc;
+    height: 44px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+div.navbar ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+    color: white;
+}
+
+div.navbar ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 0;
+    font-size: 12px;
+}
+
+div.section-one {
+    margin: 44px 0px 9px 0px;
+    width: 100vw;
+    height: 580px;
+    background-color: black;
+    background-image: url(./assets/images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-two h2,
+.section-one h2,
+.section-three h2 {
+    text-align: center;
+    color: rgb(245, 240, 240);
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 35px;
+}
+
+.section-one h2+p,
+.section-two h2+p {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+div.btns-sec-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    gap: 12px;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.sec-btn {
+    background-color: #0071e3;
+    width: 130px;
+    height: 44px;
+    font-size: 17px;
+    border-radius: 55px;
+    border: none;
+    color: white;
+}
+
+.btn-hiover {
+    background-color: transparent;
+    border: 1px solid #0071e3;
+    width: 71px;
+    height: 44px;
+    border-radius: 55px;
+    color: #0071e3;
+    font-size: medium;
+}
+
+.btn-hiover:hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+div.section-two {
+    width: 100vw;
+    height: 570px;
+    background-image: url(./assets/images/2.jpg);
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.section-two h2 {
+    color: black;
+    opacity: 0.8;
+    font-size: 50px;
+}
+
+div.section-two {
+    text-align: center;
+}
+
+#sec-two-btn {
+    width: 132px;
+}
+
+div.section-two p#hello {
+    color: black;
+    opacity: 0.8;
+    position: relative;
+    bottom: 7px;
+    font-size: 30px;
+}
+
+div.section-two p {
+    font-size: 19px;
+    color: gray;
+}
+
+div.section-three {
+    width: 100vw;
+    height: 570px;
+    background-image: url(./assets/images/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+}
+
+div.section-three h2 {
+    text-transform: uppercase;
+}
+
+i.apple-logo {
+    margin-right: 7px;
+}
+
+div.section-three .btns-sec-one {
+    width: 100%;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+span#font-weight {
+    font-weight: 400;
+}
+
+div.section-three p {
+    color: #f6f6f7;
+    display: block;
+    font-size: 27px;
+    font-weight: 0;
+}
+
+div.flex-item {
+    display: flex;
+    margin-top: 5px;
+    gap: 12px;
+}
+
+
+div.section-four {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    justify-content: center;
+    grid-template-rows: repeat(3, 580px);
+    gap: 12px;
+    width: 100%;
+}
+
+
+div.section-four-cards h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+div.section-four-cards p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.section-four-cards i.apple-logo {
+    font-size: 35px;
+}
+
+div.btns-sec-four {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 11px;
+}
+
+div.btns-sec-four button.sec-btn {
+    width: 104px;
+    font-size: 14px;
+    height: 36px;
+}
+
+div.btns-sec-four button.btn-hiover {
+    width: 60px;
+    height: 36px;
+    font-size: 14px;
+}
+
+
+div#one-card {
+    background-image: url(./assets/images/4.jpg);
+    background-position: center;
+}
+
+div#one-card p {
+    margin-top: 8px;
+}
+
+div#two-card {
+    background-image: url(./assets/images/6.jpg);
+    background-position: center;
+}
+
+div#two-card h2,
+div.same-card h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 560;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+div#two-card p,
+div.same-card p {
+    color: rgb(12, 11, 11);
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+div#three-card {
+    background-image: url(./assets/images/7.jpg);
+    background-position-x: center;
+    position: relative;
+}
+
+div#three-card span.air {
+    color: blue;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+
+div#three-card .btns-sec-one {
+    margin-bottom: 10px;
+}
+
+div#three-card h2 {
+    font-weight: 570;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+div#four-card {
+    background-image: url(./assets/images/8.jpg);
+    background-position: center;
+}
+
+div#five-card {
+    background-image: url(./assets/images/9.webp);
+    background-position: center 100px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+div#five-card h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+div#six-card {
+    background-image: url(./assets/images/10.jpg);
+    background-position: center;
+}
+
+div#six-card .btn-hover {
+    padding: 8px 16px;
+    border-radius: 55px;
+    color: #0071e3;
+    background-color: transparent;
+    border: 1px solid #0071e3;
+    font-size: medium;
+    
+}
+
+div#six-card .btn-hover:hover {
+    background-color: #0071e3;
+    color: white;
+}
