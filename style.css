@@ -39,7 +39,7 @@ div.navbar ul li a {
 }
 
 div.section-one {
-    margin: 44px 0px 9px 0px;
+    margin: 44px 0px 7px 0px;
     width: 100vw;
     height: 580px;
     background-color: black;
@@ -113,6 +113,7 @@ div.section-two {
     background-size: cover;
     background-position: center 25px;
     background-repeat: no-repeat;
+    margin-bottom: 7px;
 }
 
 div.section-two h2 {
@@ -483,7 +484,10 @@ div#six-card .btn-hover:hover {
     div.section-three {
         height: 500px;
     }
-
+    
+    div.section-one {
+        background-size: 300%;
+    }
     div.section-three p {
         font-size: 17px;
         max-width: 90%;
